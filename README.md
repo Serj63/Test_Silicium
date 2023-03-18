@@ -22,14 +22,19 @@ File "/home/serj/training/Flaskex/scripts/forms.py", line 6, in <module>
 ```
     1) Устанавливаем Docker по инструкции
     https://docs.docker.com/engine/install/ubuntu/
+    
     2) Устанавливаем git:
      sudo apt install git
+    
     3) Клонируем репозиторий и переходим в новую директорию:
     git clone https://github.com/Serj63/flaskex-test 
     cd flaskex-test/
+    
     4) Запускаем сборку контейнера:
     docker build -t flask:1
+    
     5) Запускаем контейнер:
     docker compose up
+    
     Открываем браузер и переходим по указанному ip адресу - 172.17.0.2:5000
 ```
