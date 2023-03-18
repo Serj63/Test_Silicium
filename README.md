@@ -13,11 +13,12 @@ File "/home/serj/training/Flaskex/scripts/forms.py", line 6, in <module>
     username = StringField('Username:', validators=[validators.required(), validators.Length(min=1, max=30)])
     AttributeError: module 'wtforms.validators' has no attribute 'required'
 ```
-
-Атрибут "required" и правда отсутствует и по логике в поле для ввода должен подходить атрибут "InputRequired".Как указано в документации - https://wtforms.readthedocs.io/en/3.0.x/_modules/wtforms/validators/
+```
+Атрибут "required" и правда отсутствует и по логике в поле для ввода должен подходить атрибут "InputRequired".
+Как указано в документации - https://wtforms.readthedocs.io/en/3.0.x/_modules/wtforms/validators/
 После исправления система запустилась
 Я не имею опыта работы с python, поэтому не знаю насколько правильно я поступил, но запустить приложение получилось только в виртуальном окружении python. 
-
+```
 ## Теперь инструкция по запуску в Ubuntu 22.04 LTS следующая:
 ```
     1) Устанавливаем Docker по инструкции
