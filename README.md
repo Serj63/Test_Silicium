@@ -31,7 +31,7 @@ File "/home/serj/training/Flaskex/scripts/forms.py", line 6, in <module>
     cd flaskex-test/
     
     4) Запускаем сборку контейнера:
-    docker build -t flask:1
+    docker build -t flask:1 .
     
     5) Запускаем контейнер:
     docker compose up
